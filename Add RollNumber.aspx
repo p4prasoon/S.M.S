@@ -20,7 +20,7 @@
         Select Class:&nbsp;
                 <strong class="style3"> 
         &nbsp;&nbsp; 
-        <asp:DropDownList ID="DropDownList1" runat="server" Height="40px" Width="191px" 
+        <asp:DropDownList ID="DropDownList1" runat="server" Height="40px" Width="195px" 
             CssClass="style2">
             <asp:ListItem>Select Class</asp:ListItem>
             <asp:ListItem>1</asp:ListItem>
@@ -42,7 +42,7 @@
        
         </strong>Select Section:&nbsp;&nbsp;
         <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True" 
-            CssClass="style4" Height="40px" Width="175px">
+            CssClass="style4" Height="50px" Width="175px">
             <asp:ListItem>A</asp:ListItem>
             <asp:ListItem>B</asp:ListItem>
             <asp:ListItem>C</asp:ListItem>
@@ -71,9 +71,9 @@
             <RowStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" />
             <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="#F7F7F7" />
             <SortedAscendingCellStyle BackColor="#F4F4FD" />
-            <SortedAscendingHeaderStyle BackColor="#5A4C9D" />
+            <SortedAscendingHeaderStyle BackColor="#5A4C8D" />
             <SortedDescendingCellStyle BackColor="#D8D8F0" />
-            <SortedDescendingHeaderStyle BackColor="#3E3277" />
+            <SortedDescendingHeaderStyle BackColor="#3E3267" />
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
             ConnectionString="<%$ ConnectionStrings:masterConnectionString %>" 
